@@ -1,0 +1,358 @@
+/*
+Themes Name     : Portofolio
+Author          : Thesar Dui
+Version         : 1.0
+Licensed        : GPL Themes 
+ */
+
+
+ /* Navigation */
+ nav {
+    position: relative;
+    background: linear-gradient(to right, #3525af, #9153c9);
+}
+nav p {
+    font-size: 20px;
+    color: #FFF;
+}
+nav img {
+    width: 125px;
+    background-color: #FFF;
+    border-radius: 50px;
+}
+nav img:hover{
+    background-color: transparent;
+    border-radius: 50px;
+}
+nav .navbar-brand {
+    font-size: 25px;
+    
+}
+
+nav a.nav-link {
+    color: #a1c2f3 !important;
+    font-size: 20px;
+    
+}
+
+nav a.nav-link .active,nav a.nav-link:hover {
+    color: #fff !important;
+    border-bottom: 3px solid;
+    padding: 0px;
+}
+
+.navbar button .active{
+    background-color: white;
+}
+/* About */
+#about {
+    position: relative;
+    background: linear-gradient(to right, #3525af, #9153c9);
+    padding: 100px 0 0 0 ;
+    text-align: center;
+}
+
+#about .aboutme a {
+    color: black;
+    text-decoration:  none;
+}
+
+#about .aboutme {
+    padding-bottom: 30px;
+}
+#about img {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #3525af;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: top center;
+    -o-object-position: top center;
+}
+#about h1 {
+    position: relative;
+    margin: 0;
+    padding-top: 25px;
+    color: #06357a;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#about h5 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #2b2c31;
+}
+
+#about .aboutme button {
+    background: linear-gradient(to left, #3525af, #9153c9);
+    color: #fff;
+}
+
+#about .aboutme #profile-collapseOne,#pengalaman-collapseOne {
+    background: linear-gradient(to left, #3525af, #9153c9);
+    color: #fff;
+    
+}
+/* Service */
+#service {
+    position: relative;
+}
+
+#service h2 {
+    position: relative;
+    margin-bottom: 50px;
+    color: #06357a;
+    font-size: 40px;
+    border-block-end:6px double;
+    width: 20.5%;
+}
+
+#service h4 {
+    position: relative;
+    margin-bottom: 50px;
+    color: #06357a;
+    font-size: 40px;
+}
+
+#service .service-list {    
+    position: relative;
+    padding: 15px 0;
+}
+
+#service .service-list .service-item {
+    position: relative;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#service .service-list .service-item img {
+    width: 85%;
+}
+
+#service .service-list .service-item h3 {
+    color: #06357a;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+#service .service-list .service-item p {
+    color: #797676;
+    font-size: 18px;
+}
+
+#service .service-list .service-item a.btn {
+    background: linear-gradient(to right, #3525af, #9153c9);
+    font-size: 20px;
+    margin-top: 15px;
+    width: 50%;
+}
+#service .service-list .service-item a.btn:hover {
+    background: transparent;
+    border: 2px solid #06357a;
+    color: #06357a;
+    padding: 0px;
+}
+
+/* Projects */
+#project {
+    position: relative;
+    background: linear-gradient(to right, #3525af, #9153c9);
+}
+
+#project h2 {
+    position: relative;
+    margin-bottom: 50px;
+    color: #081c3a;
+    font-size: 40px;
+    border-block-end:6px double;
+    width: 20.1%;
+}
+
+#project .project-item {
+    position: relative;
+    margin: 25px 0;
+}
+
+#project .project-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: top center;
+    -o-object-position: top center;
+    margin-bottom: 15px;
+}
+
+#project .project-item h3 {
+    position: relative;
+    font-size:  20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#project .project-item h5 {
+    position: relative;
+    color: #bea7a7;
+    font-size: 16px;
+}
+
+/* Testimonials */
+#testimonial {
+    position: relative;
+    padding: 0 0 50px 0;
+}
+
+#testimonial h2 {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #06357a;
+    font-size: 40px;
+    text-align: center;
+}
+
+#testimonial .carousel-item {
+    text-align: center;
+    padding: 0 100px;
+}
+
+#testimonial img {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #06357a;
+    margin-bottom: 15px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: top center;
+    -o-object-position: top center;
+}
+
+#testimonial h5 {
+    color: #06357a;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#testimonial  p {
+    font-size: 18px;
+}
+
+#testimonial button{
+    background: linear-gradient(to right, #3525af, #9153c9);
+    width: 100px;
+
+}
+
+/* Contact */
+#contact {
+    position: relative;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, #3525af, #9153c9);
+}
+
+#contact h2 {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #081c3a;
+    font-size: 40px;
+    text-align: center;
+}
+
+#contact form {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#contact form label {
+    color: #081c3a;
+    font-weight: 600px;
+    text-transform: uppercase;
+}
+
+#contact form input[type="text"],#contact form input[type="email"],#contact form textarea {
+    position: relative;
+    padding: 8px 10px;
+    border-radius: 0;-webkit-border-radius: 0;
+    border: 2px solid #06357a;
+}
+
+#contact form button {
+    position: relative;
+    display: block;
+    background: linear-gradient(to left, #3525af, #9153c9);
+    width: 50%;
+    color: #fff;
+    border: 2px solid black;
+    margin: 15px auto;
+}
+
+#contact form button[type="submit"]:hover {
+    background: transparent;
+    color: #fff;
+}
+/* Footer */
+
+#footer {
+    position: relative;
+    padding: 10px;
+    background: linear-gradient(to right, #3525af, #9153c9);
+}
+
+#footer p {
+    position: relative;
+    text-align: center;
+    color: #06357a;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Responisve */
+@media(max-width:800px){
+    #project .project-item img {
+        height: 160px;
+    }
+    #project h2 {
+        width: 32.5%;
+    }
+    #service h2 {
+        width: 33.1%;
+    }
+}
+
+@media(max-width:640px){
+    #project h2 {
+        width: 43.5%;
+    }
+    #service h2 {
+        width: 44.5%;
+    }
+    #project .project-item img {
+        height: 400px;
+    }
+
+    #testimonial .carousel-item .carousel-content {
+        padding: 0 25px;
+    }
+}
+
+@media(max-width:480px){
+    #project h2 {
+        width: 49.2%;
+    }
+    #service h2 {
+        width: 50%;
+    }
+
+    #project .project-item {
+        text-align: center;
+    }
+    
+    #project .project-item img {
+        height: 300px;
+    }
+}
+
